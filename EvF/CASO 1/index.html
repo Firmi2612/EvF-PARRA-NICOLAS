@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Departamentos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Realiza una cotización</h1>
+        <div class="galeria">
+            <div class="detalle-departamento">
+                <img id="imagen" alt="Departamento">
+                <div id="infoDepartamento" class="info-departamento">
+                    <p>CONSTRUYE</p><p id="nombreConstructora"  class="nombreConstructora"></p>
+                    <p>PRECIO</p><p id="precioDepartamento" class="precio">Precio:</p>
+                    <p>AREA</p><p id="areaDepartamento" class="area">Área:</p>
+                </div>
+            </div>
+            <div class="navegacion">
+                <button onclick="imagenAnterior()">Anterior</button>
+                <button onclick="imagenSiguiente()">Siguiente</button>
+            </div>
+        </div>
+    </div>
+    <script src="programa.js"></script>
+</body>
+</html>
+

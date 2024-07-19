@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    text-align: center;
+    border: 5px solid brown;
+    padding: 20px;
+}
+
+.galeria {
+    margin-top: 20px;
+}
+
+.detalle-departamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.info-departamento {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.navegacion {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #d83d16;
+    color: rgb(223, 213, 213);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+#mensaje {
+    margin-top: 10px;
+}
+.precio, .area, .nombreConstructora{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 0.2px;
+}
+.info-departamento {
+    display: flex;
+    flex-direction: column;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; 
+    border: 1px solid #ccc;
+}
